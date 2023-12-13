@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700&family=Space+Grotesk:wght@300;500;600&display=swap");
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  
+}
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  margin-top: 150px;
+  padding: 50px;
+  border-radius: 16px;
+  border: 2px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#container p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}

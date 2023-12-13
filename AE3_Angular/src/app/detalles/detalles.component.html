@@ -1,0 +1,21 @@
+<div id="container">
+  <div id="titulo">
+    <h2>Detalles del Juego</h2>
+      </div>
+
+<!-- Se utilizan expresiones de enlace de datos ({{ }}) para mostrar 
+  dinámicamente los detalles del videojuego-->  
+ <div id="tarjeta">
+    <img [src]="imagen" alt="{{ titulo }}" class="imagen" />
+    <div id="detalles">
+      <h3>{{ titulo }}</h3>
+      <p>ID: {{ id }}</p>
+      <p>Compañía: {{ compania }}</p>
+      <p>Valoración: {{ valoracion }}</p>
+      <p>Usuario: {{ usuario }}</p>
+    </div>
+  </div>
+  
+  <!-- Asociar el evento click al método 'volver()' del componente -->
+  <div id="boton"><button (click)="volver()">Volver</button></div>
+</div>

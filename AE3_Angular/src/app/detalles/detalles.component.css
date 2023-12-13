@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700&family=Space+Grotesk:wght@300;500;600&display=swap");
+* {
+  font-family: Montserrat, sans-serif;
+}
+#container {
+    position: relative;
+    margin: 0 auto;
+  background-color: #e6e6e6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 30px;
+  width: fit-content;
+  margin-top: 150px;
+  border-radius: 16px;
+  text-align: center;
+
+}
+#titulo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#tarjeta {
+  display: flex;
+  align-items: center;
+  height: 200px;
+
+}
+
+.imagen {
+  width: 250px;
+  margin-right: 40px;
+}
+
+#detalles {
+  background-color: #cacaca;
+  width: fit-content;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+
+}
+
+h2, h3{
+    color: #333;
+    font-weight: bold;
+}
+
+#boton{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+button {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    background-color: #4651e6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  
+  }
+  
+  button:hover {
+    background-color: #353b94;
+  }

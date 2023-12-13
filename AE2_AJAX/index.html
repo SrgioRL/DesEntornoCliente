@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI2 - AJAX</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
+    <!--Con el atributo "defer" hacemos que el script cargue en segundo plano a la vez que el html, 
+        pero se ejecuta despues de la carga de la página-->
+  </head>
+
+  <body>
+    <h1>Actividad 2 / Desarrollo en entorno cliente.</h1>
+
+    <form id="form">
+      <label for="nombre">Nombre: </label>
+      <input type="text" id="nombre" name="nombre" /> <br /><br />
+
+      <label for="direccion">Dirección: </label>
+      <input type="text" id="direccion" name="direccion" /><br /><br />
+
+      <label for="telefono">Teléfono: </label>
+      <input type="text" id="telefono" name="telefono" /> <br /><br />
+
+      <label>Tamaño: </label><br />
+      <div id="contenedorTamaños"></div>
+      <br /><br />
+
+      <label>Ingredientes extra: </label><br />
+      <div id="contenedorIngredientes"></div>
+      <br /><br />
+
+      <!-- Botones para validar y refrescar la página -->
+      <button id="validar" type="submit">REALIZAR PEDIDO</button>
+      <button id="refrescar">RECARGAR</button>
+    </form>
+  </body>
+</html>

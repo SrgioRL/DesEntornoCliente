@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI1 - Requerimiento 2</title>
+    <link rel="stylesheet" href="/Requ2/style.css">
+    <script src="/Requ2/script2.js" defer></script>
+    <!--Con el atributo "defer" hacemos que el script cargue en segundo plano a la vez que el html, 
+        pero se ejecuta despues de la carga de la página-->
+  </head>
+
+  <body>
+    <h1>Actividad 1. Req2 / Desarrollo en entorno cliente.</h1>
+
+    <form id="form">
+      <label for="nombre">Nombre: </label>
+      <input type="text" id="nombre" name="nombre" /> <br /><br />
+
+      <label for="direccion">Dirección: </label>
+      <input type="text" id="direccion" name="direccion" /><br /><br />
+
+      <label for="telefono">Teléfono: </label>
+      <input type="text" id="telefono" name="telefono" /> <br /><br />
+
+      <label for="email">E-mail: </label>
+      <input type="text" id="email" name="email" /> <br /><br /><br />
+
+      <label for="tamaño">Elije el tamaño de tu pizza: </label><br /><br />
+
+      <input type="radio" name="tamaño" id="pequeña" />
+      <label for="tamaño">Pequeña - 5€</label> <br />
+
+      <input type="radio" name="tamaño" id="mediana" />
+      <label for="tamaño">Mediana - 10€</label> <br />
+
+      <input type="radio" name="tamaño" id="grande" />
+      <label for="tamaño">Grande - 15€</label> <br /><br />
+
+      <label for="ingredientes"
+        >Elije tus ingredientes (1€ extra cada ingrediente)</label
+      ><br /><br />
+
+      <input type="checkbox" name="ingredientes" />
+      <label>Mezcla de quesos</label><br />
+      <input type="checkbox" name="ingredientes" />
+      <label>Anchoas</label><br />
+      <input type="checkbox" name="ingredientes" />
+      <label>Atún</label><br />
+      <input type="checkbox" name="ingredientes" />
+      <label>Cebolla</label><br />
+
+      <br />
+      <br />
+
+      <button type="button" id="botonValidar">- REALIZAR PEDIDO -</button>
+    </form>
+  </body>
+</html>

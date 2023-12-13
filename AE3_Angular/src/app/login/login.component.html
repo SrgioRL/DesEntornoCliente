@@ -1,0 +1,27 @@
+<div id="container">
+  <form (submit)="login()">
+    <h2>Iniciar Sesión</h2>
+
+    <!-- Campos para introducir los datos de usuario con enlace bidireccional [(ngModel)] -->
+    <label for="nombre">Nombre de Usuario:</label>
+    <input type="text" id="nombre" name="nombre" [(ngModel)]="user" required />
+    <label for="contraseña">Contraseña:</label>
+    <input
+      type="password"
+      id="contraseña"
+      name="contraseña"
+      [(ngModel)]="contrasena"
+      required
+    />
+
+    <!-- Mostrar mensaje de error si se produce -->
+    <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+    <button type="submit">Iniciar Sesión</button>
+  </form>
+
+  <div id="datos">
+    <p>Los datos de acceso son:</p>
+    <p>Usuarios: Sergio/Marina</p>
+    <p>Contraseña: 1234 para ambos</p>
+  </div>
+</div>

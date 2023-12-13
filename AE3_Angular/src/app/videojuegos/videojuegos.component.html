@@ -1,0 +1,29 @@
+<div id="container">
+ <div id="titulo"> <h1>¡Hola, {{ userName }}!</h1>
+  <button (click)="logout()">Cerrar Sesión</button>
+
+  <h2>Tu Listado de Videojuegos</h2></div>
+
+    <!-- Iteramos sobre cada juego en el array videojuego con la directiva *ngFor -->
+  <div class="listado">
+    <div *ngFor="let juego of videojuego" class="card">
+      <a
+        [routerLink]="['/detalles', juego.id]"
+        [queryParams]="{
+          img: juego.imagen,
+          titulo: juego.titulo,
+          compania: juego.compania,
+          valoracion: juego.valoracion,
+          usuario: userName
+        }"
+      >
+        <img [src]="juego.imagen" alt="{{ juego.titulo }}" class="portada" />
+        <div class="detalles">
+          <h4>{{ juego.titulo }}</h4>
+          <p>ID: {{ juego.id }}</p>
+          <p>Valoración: {{ juego.valoracion }}/10</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+{
+  "Pizzeria": {
+    
+    "Tamaños": [
+      { "Tamaño": "Pequeña", "Precio": "5" },
+      { "Tamaño": "Mediana", "Precio": "10" },
+      { "Tamaño": "Grande", "Precio": "15" },
+      { "Tamaño": "Familiar", "Precio": "20" }
+    ],
+
+    "Ingredientes": [
+      { "Nombre": "Mezcla de Quesos", "Precio": "6" },
+      { "Nombre": "Anchoas", "Precio": "3" },
+      { "Nombre": "Atún", "Precio": "2" },
+      { "Nombre": "Cebolla", "Precio": "1" }
+    ]
+  }
+}

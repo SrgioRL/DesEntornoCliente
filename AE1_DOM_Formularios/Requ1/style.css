@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #a0b0c0;
+  color: #333333;
+  display: block;
+  
+}
+
+h1 {
+  font-size: 1.7em;
+  color: #000000;
+}
+
+
+
+input,
+label {
+      font-size: 16px;
+  color: #333333;
+}
+
+input {
+  width: 350px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+
+
